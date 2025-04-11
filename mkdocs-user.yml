@@ -1,4 +1,14 @@
 site_name: Joke API - User Docs
+
+site_url: https://timotheicorneille.github.io/random-joke
+site_description: Fetch and submit jokes with our public API.
+site_author: Timothei Corneille
+
+repo_url: https://github.com/timotheicorneille/random-joke
+repo_name: timotheicorneille/random-joke
+site_dir: site
+copyright: Copyright &copy; 2025 Timothei Corneille
+
 nav:
   - Home: index.md
   - Quick Start:
@@ -14,7 +24,6 @@ nav:
       - Using with JavaScript: examples/javascript.md
   - FAQ: faq.md
   - Contribute: contribute.md
-
 docs_dir: docs-user
 theme:
   name: material
