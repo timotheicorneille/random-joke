@@ -10,6 +10,6 @@
 
 ## Guidelines
 
-- Assurez-vous que votre code suit les conventions de style Python (PEP 8).
-- Ajoutez des tests pour vos nouvelles fonctionnalites.
-- Mettez a jour la documentation si necessaire.
+- Ensure your code follows Python style conventions (PEP 8).
+- Add tests for your new features.
+- Update the documentation if necessary.
