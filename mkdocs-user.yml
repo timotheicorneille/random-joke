@@ -1,0 +1,8 @@
+site_name: Joke API - User Docs
+nav:
+  - Home: index.md
+  - API Endpoints: endpoints.md
+  - Contribute: contribute.md
+docs_dir: docs-user
+theme:
+  name: material

@@ -1,0 +1,8 @@
+site_name: Joke API - Dev Docs
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Deployment: deployment.md
+docs_dir: docs-dev
+theme:
+  name: readthedocs
