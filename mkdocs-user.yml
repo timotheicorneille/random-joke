@@ -18,4 +18,16 @@ nav:
 docs_dir: docs-user
 theme:
   name: material
+  palette:
+    scheme: default
+  features:
+    - content.code.copy
+    - content.code.annotate
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
 use_directory_urls: false
