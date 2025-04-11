@@ -9,12 +9,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+
       - name: Install dependencies
         run: pip install mkdocs mkdocs-material
+
+      - name: Set up Git credentials
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Build and deploy
         run: mkdocs gh-deploy --config-file mkdocs-user.yml --force
         env:
