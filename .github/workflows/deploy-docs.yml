@@ -24,6 +24,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Build and deploy
-        run: mkdocs gh-deploy --config-file mkdocs-user.yml --force
+        run: mkdocs gh-deploy --config-file mkdocs-user.yml --strict --force
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
