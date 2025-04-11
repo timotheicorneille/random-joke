@@ -6,3 +6,4 @@ nav:
 docs_dir: docs-user
 theme:
   name: material
+use_directory_urls: false
