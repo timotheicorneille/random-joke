@@ -1,8 +1,20 @@
 site_name: Joke API - User Docs
 nav:
   - Home: index.md
-  - API Endpoints: endpoints.md
+  - Quick Start:
+      - Getting Started: quickstart/getting-started.md
+      - Authentication: quickstart/auth.md
+  - API Reference:
+      - Overview: endpoints.md
+      - Endpoints:
+          - Get Random Joke: api/get-joke.md
+          - Submit a Joke: api/post-joke.md
+  - Examples:
+      - Using with Python: examples/python.md
+      - Using with JavaScript: examples/javascript.md
+  - FAQ: faq.md
   - Contribute: contribute.md
+
 docs_dir: docs-user
 theme:
   name: material
